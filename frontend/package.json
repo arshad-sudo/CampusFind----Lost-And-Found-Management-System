@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^5.18.0",
+    "@mui/material": "^5.18.0",
+    "axios": "^1.18.1",
+    "dayjs": "^1.11.21",
+    "notistack": "^3.0.2",
+    "react-dropzone": "^18.0.0",
+    "react-router-dom": "^6.30.4",
+    "react-toastify": "^11.1.0",
+    "recharts": "^3.9.2"
+  }
+}
