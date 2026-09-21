@@ -1,7 +1,12 @@
 import axios from 'axios';
 
+const API_BASE_URL = 'https://campusfind-lost-and-found-management.onrender.com/api';
+
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: API_BASE_URL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 api.interceptors.request.use(
